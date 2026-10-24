@@ -1,0 +1,9 @@
+{
+  "files.eol": "\n",
+  "clangd.arguments": [
+    "--compile-commands-dir=.vscode",
+    "--header-insertion=never",
+    "--clang-tidy"
+  ],
+  "cmake.copyCompileCommands": "${workspaceFolder}/.vscode/compile_commands.json"
+}
